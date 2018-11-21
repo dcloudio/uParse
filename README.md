@@ -1,13 +1,6 @@
-# mpvue-wxParse 适用于 Mpvue 的微信小程序富文本解析组件
+# uParse 适用于 uni-app/mpvue 的富文本解析组件
 
-> 支持 Html、Markdown 转 Wxml 可视化，修改自: [wxParse](https://github.com/icindy/wxParse)
-
-[![npm package](https://img.shields.io/npm/v/mpvue-wxparse.svg)](https://npmjs.org/package/mpvue-wxparse)
-[![npm downloads](http://img.shields.io/npm/dm/mpvue-wxparse.svg)](https://npmjs.org/package/mpvue-wxparse)
-
-
-## 扫码体验
-![小程序码](./static/qrcode.jpg)
+> 支持 Html、Markdown 转 Wxml 可视化，Fork自: [mpvue-wxParse](https://github.com/F-loat/mpvue-wxParse)
 
 
 ## 属性
@@ -142,8 +135,3 @@ export default {
   ]
 }
 ```
-
-
-## 感谢
-
-[@stonewen](https://github.com/stonewen)| [@Daissmentii](https://github.com/Daissmentii)        | [@wuyanwen](https://github.com/wuyanwen)           | [@vcxiaohan](https://github.com/vcxiaohan)
