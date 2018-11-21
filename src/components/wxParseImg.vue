@@ -44,7 +44,7 @@ export default {
       const { imageheight, imageWidth } = recal;
       const { padding, mode } = this.node.attr;
       const { styleStr } = this.node;
-      const imageHeightStyle = mode === 'widthFix' ? '' : `height: ${imageheight}px; !important`;
+      const imageHeightStyle = mode === 'widthFix' ? '' : `height: ${imageheight}px;`;
       this.newStyleStr = `${styleStr}; ${imageHeightStyle}; width: ${imageWidth}px; padding: 0 ${+padding}px;`;
     },
     // 计算视觉优先的图片宽高
