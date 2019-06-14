@@ -40,27 +40,22 @@
 
 ## 基本使用方法
 
-* 安装
-
-``` bash
-npm i mpvue-wxparse
-```
 
 * 使用
 
 ``` vue
 <template>
   <div>
-    <wxParse :content="article" @preview="preview" @navigate="navigate" />
+    <uParse :content="article" @preview="preview" @navigate="navigate" />
   </div>
 </template>
 
 <script>
-import wxParse from 'mpvue-wxparse'
 
+import uParse from '@/components/u-parse/u-parse.vue'
 export default {
   components: {
-    wxParse
+    uParse
   },
   data () {
     return {
